@@ -1,18 +1,10 @@
 #!/bin/bash
 
-# git pull 
-# 
-# npm i
-# 
-# npm run build
-# 
-# pm2 restart
-
 pass(){
     
         if [ $? -eq 0 ]
         then
-            echo "passed"
+            echo "Successfully passed!"
         elif [ $? != 0 ]
         then
             echo "Last command failed. Exited..."
