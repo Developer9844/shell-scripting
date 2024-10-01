@@ -2,10 +2,10 @@
 
 pass(){
     
-        if [ $? -eq 0 ]
+        if [ $? = 0 ]                   # you can use -eq instead of =
         then
             echo "Successfully passed!"
-        elif [ $? != 0 ]
+        elif [ $? != 0 ]                # you can use -ne instead of !=
         then
             echo "Last command failed. Exited..."
             exit 1
@@ -19,5 +19,5 @@ pass
 pwd
 pass
 
-touch hi /var/log/
+touch /var/log/hi.txt
 pass
