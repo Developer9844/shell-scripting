@@ -17,6 +17,7 @@ sum(){
     c=$(($a+$b))
     echo "sum: $c"
 }
+
 sum
 
 

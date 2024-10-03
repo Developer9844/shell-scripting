@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 DATABASE_HOST=localhost
 DATABASE_USER=ankush
 DATABASE_PASSWORD=Ankush984400.

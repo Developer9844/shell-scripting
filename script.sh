@@ -1,4 +1,8 @@
 #!/bin/bash
+# set -x        #you can add this for debug
+
+# echo ${0}           # it prints the name of script
+# echo ""
 
 pass(){
     
@@ -16,8 +20,11 @@ pass(){
 pwd
 pass
 
-pwd
-pass
+sleep 5s            # to deley between two executions
 
 touch /var/log/hi.txt
 pass
+
+pwd
+pass
+
