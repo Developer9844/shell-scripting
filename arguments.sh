@@ -24,4 +24,5 @@ name=$1
 echo "my name is $name"
 
 
-
+# How to run this Script
+# ./arguments.sh Output-1 Output-2 Output-3
