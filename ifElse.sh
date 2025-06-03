@@ -5,11 +5,11 @@ b=20         #$2
 
 if [ $a -gt $b ]
 then
-    echo "$a >= $b"
+    echo "$a > $b"
 
 elif [ $a -lt $b ]
 then
-    echo "$a <= $b"
+    echo "$a < $b"
     
 else
     echo "$a = $b"

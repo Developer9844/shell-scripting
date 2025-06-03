@@ -7,6 +7,6 @@ echo "Hello world"
 echo "variables"
 
 name="Ankush"
-age=27
+age="27"
 
 echo "My name is ${name}"
