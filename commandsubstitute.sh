@@ -8,6 +8,6 @@ echo $current_directory
 echo " "
 
 
-echo "using \$()"           # recommendet
+echo "using \$()"           # recommended
 current_directory2=$(pwd)
 echo $current_directory2

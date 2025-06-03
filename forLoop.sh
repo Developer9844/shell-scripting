@@ -12,11 +12,16 @@ for ((i=0; i<5; i++)){
 }
 
 # initialisation     condition        increment/decrement     print
-# i=0                0<5 = T          i++ = 1                 hello
-# i=1                1<5 = T          i++ = 2                 hello
-# i=2                2<5 = T          i++ = 3                 hello
-# i=3                3<5 = T          i++ = 4                 hello
-# i=4                4<5 = T          i++ = 5                 hello
+# i=0                0<5 = T                                  hello
+#                                     i++ = 1
+# i=1                1<5 = T                                  hello
+#                                     i++ = 2
+# i=2                2<5 = T                                  hello
+#                                     i++ = 3
+# i=3                3<5 = T                                  hello
+#                                     i++ = 4
+# i=4                4<5 = T                                  hello
+#                                     i++ = 5
 # i=5                5<5 = F              -                   LoopBreak
 
 
