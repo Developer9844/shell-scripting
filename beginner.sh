@@ -99,10 +99,5 @@
 # sudo --askpass systemctl is-active  docker
 # check_status
 
-# pwd jdfasfkas
-
-
-
-
+# pwd
 #######
-
